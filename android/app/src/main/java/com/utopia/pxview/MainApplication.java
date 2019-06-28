@@ -4,6 +4,7 @@ import android.app.Application;
 
 import com.squareup.leakcanary.LeakCanary;
 import com.facebook.react.ReactApplication;
+import com.contentsquare.rn.CsSdkPackage;
 import com.reactnative.photoview.PhotoViewPackage;
 import com.rnziparchive.RNZipArchivePackage;
 import com.BV.LinearGradient.LinearGradientPackage;
@@ -41,6 +42,7 @@ public class MainApplication extends Application implements ReactApplication {
       return Arrays.<ReactPackage>asList(
           new RNSpinkitPackage(),
            new MainReactPackage(),
+            new CsSdkPackage(),
             new PhotoViewPackage(),
             new UgoiraViewPackage(),
             new RNZipArchivePackage(),
@@ -53,7 +55,6 @@ public class MainApplication extends Application implements ReactApplication {
             new RNSharePackage(),
             new VectorIconsPackage(),
             new FabricPackage(),
-            new RNSpinkitPackage(),
             new RNFetchBlobPackage()
       );
     }
@@ -73,12 +74,5 @@ public class MainApplication extends Application implements ReactApplication {
   public void onCreate() {
     super.onCreate();
     SoLoader.init(this, /* native exopackage */ false);
-    Fabric.with(this, new Crashlytics());
-    if (LeakCanary.isInAnalyzerProcess(this)) {
-      // This process is dedicated to LeakCanary for heap analysis.
-      // You should not init your app in this process.
-      return;
-    }
-    LeakCanary.install(this);
   }
 }

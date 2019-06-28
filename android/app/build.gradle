@@ -109,6 +109,7 @@ android {
         }
         renderscriptTargetApi 23
         renderscriptSupportModeEnabled true
+        multiDexEnabled true
     }
     signingConfigs {
         release {
@@ -157,6 +158,7 @@ repositories {
 }
 
 dependencies {
+    implementation project(':react-native-cs-sdk')
     implementation project(':react-native-photo-view')
     implementation project(':react-native-zip-archive')
     implementation project(':react-native-linear-gradient')
