@@ -20,8 +20,10 @@ DerivedData
 *.hmap
 *.ipa
 *.xcuserstate
-project.xcworkspace
+# Cocoapods
+PxView.xcworkspace
 Pods/
+Podfile.lock
 
 # Android/IntelliJ
 #
@@ -59,3 +61,4 @@ flow-typed
 
 # Bundle artifact
 *.jsbundle
+
