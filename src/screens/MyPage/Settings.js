@@ -6,6 +6,7 @@ import {
   Alert,
   DeviceEventEmitter,
   Linking,
+  NativeModules,
 } from 'react-native';
 import { connect } from 'react-redux';
 import { withTheme } from 'react-native-paper';
@@ -163,6 +164,11 @@ class Settings extends Component {
         break;
       }
       case 'about': {
+        console.log('/!\\/!\\/!\\/!\\/!\\ lololol /!\\/!\\/!\\/!\\/!\\');
+        NativeModules.CsSdk.stopTracking();
+        console.log('/!\\/!\\/!\\/!\\/!\\ lalilal /!\\/!\\/!\\/!\\/!\\');
+        NativeModules.CsSdk.resumeTracking();
+        console.log('/!\\/!\\/!\\/!\\/!\\ lalolal /!\\/!\\/!\\/!\\/!\\');
         navigate(SCREENS.About);
         break;
       }
