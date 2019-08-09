@@ -755,7 +755,6 @@
 				1A77F4704DB9056B6AE7550E /* Pods-PxView.debug.xcconfig */,
 				F2752C8D1EDF2E6128C259C6 /* Pods-PxView.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -1949,6 +1948,7 @@
 					"$(SRCROOT)/../node_modules/react-native-webp-support",
 				);
 				INFOPLIST_FILE = PxView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -1991,6 +1991,7 @@
 					"$(SRCROOT)/../node_modules/react-native-webp-support",
 				);
 				INFOPLIST_FILE = PxView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
