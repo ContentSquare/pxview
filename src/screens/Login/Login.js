@@ -5,6 +5,7 @@ import {
   View,
   Keyboard,
   KeyboardAvoidingView,
+  NativeModules,
 } from 'react-native';
 import { connect } from 'react-redux';
 import { withFormik, Field } from 'formik';
@@ -94,6 +95,7 @@ class Login extends Component {
       setFieldTouched,
       theme,
     } = this.props;
+    NativeModules.CsSdk.send("Login")
     return (
       <View style={styles.container}>
         <View style={styles.container}>
