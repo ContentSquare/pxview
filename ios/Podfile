@@ -10,7 +10,7 @@ target 'PxView' do
 
   # pod 'react-native-photo-view', :path => '../node_modules/react-native-photo-view'
 
-  pod 'CsSdk', path: '../node_modules/react-native-cs-sdk'
+  pod 'CsSdk', :path => '../node_modules/react-native-cs-sdk'
   pod 'React', path: '../node_modules/react-native'
   pod 'yoga', path: '../node_modules/react-native/ReactCommon/yoga'
 
