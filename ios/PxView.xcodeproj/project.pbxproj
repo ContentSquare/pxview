@@ -40,6 +40,7 @@
 		2D16E6881FA4F8E400B85C8A /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D16E6891FA4F8E400B85C8A /* libReact.a */; };
 		2DCD954D1E0B4F2C00145EB5 /* PxViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* PxViewTests.m */; };
 		2DF0FFEE2056DD460020B375 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3EA31DF850E9000B6D8A /* libReact.a */; };
+		409671C62316D5E400641A8D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB61A68108700A75B9A /* Info.plist */; };
 		40ED405C22C3E2CE00285330 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40ED405B22C3E2CE00285330 /* JavaScriptCore.framework */; };
 		4F8B557EDA034C43989D7BC0 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 986A17A066E541B48052019F /* SimpleLineIcons.ttf */; };
 		5648BE6DB15C482888424A1A /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A3614D7DF794420DB8D79CF6 /* Foundation.ttf */; };
@@ -1696,6 +1697,7 @@
 				02E44289B1224E0294770A36 /* EvilIcons.ttf in Resources */,
 				9F37BAA1544942359C06F3CD /* FontAwesome.ttf in Resources */,
 				5648BE6DB15C482888424A1A /* Foundation.ttf in Resources */,
+				409671C62316D5E400641A8D /* Info.plist in Resources */,
 				294FE8D9B3D94AE0B380CB5B /* Ionicons.ttf in Resources */,
 				FEF93A32BCB4412A9A074E98 /* MaterialIcons.ttf in Resources */,
 				DA438169BE3D4E17A624A091 /* Octicons.ttf in Resources */,
