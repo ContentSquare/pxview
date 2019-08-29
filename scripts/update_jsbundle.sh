@@ -5,6 +5,7 @@ if ! [ -x "$(command -v react-native)" ]; then
     sudo chown -R $USER:$GROUP ~/.config
 
     echo 'React-native CLI is missing, installing...'
+    npm r -g watchman
     npm install -g react-native-cli
 fi
 
