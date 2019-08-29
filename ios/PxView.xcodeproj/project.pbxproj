@@ -40,6 +40,7 @@
 		2D16E6881FA4F8E400B85C8A /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D16E6891FA4F8E400B85C8A /* libReact.a */; };
 		2DCD954D1E0B4F2C00145EB5 /* PxViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* PxViewTests.m */; };
 		2DF0FFEE2056DD460020B375 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3EA31DF850E9000B6D8A /* libReact.a */; };
+		4026DE752317D676004EECA4 /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = 008F07F21AC5B25A0029DE68 /* main.jsbundle */; };
 		409671C62316D5E400641A8D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB61A68108700A75B9A /* Info.plist */; };
 		40ED405C22C3E2CE00285330 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40ED405B22C3E2CE00285330 /* JavaScriptCore.framework */; };
 		4F8B557EDA034C43989D7BC0 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 986A17A066E541B48052019F /* SimpleLineIcons.ttf */; };
@@ -1703,6 +1704,7 @@
 				DA438169BE3D4E17A624A091 /* Octicons.ttf in Resources */,
 				4F8B557EDA034C43989D7BC0 /* SimpleLineIcons.ttf in Resources */,
 				18F34E3117174A909735C364 /* Zocial.ttf in Resources */,
+				4026DE752317D676004EECA4 /* main.jsbundle in Resources */,
 				035C78D366474595B7F3A807 /* MaterialCommunityIcons.ttf in Resources */,
 				D0830292C2A4469BB5B8EB22 /* Feather.ttf in Resources */,
 			);
