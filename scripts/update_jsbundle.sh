@@ -1,5 +1,9 @@
 
 if ! [ -x "$(command -v react-native)" ]; then
+    echo 'Restore ownership of the user\'s npm related folders to the current user'
+    sudo chown -R $USER:$GROUP ~/.npm
+    sudo chown -R $USER:$GROUP ~/.config
+
     echo 'React-native CLI is missing, installing...'
     npm install -g react-native-cli
 fi
