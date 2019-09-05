@@ -8,18 +8,4 @@ target 'PxView' do
   pod 'Fabric'
   pod 'Crashlytics'
 
-  # pod 'react-native-photo-view', :path => '../node_modules/react-native-photo-view'
-
-  pod 'CsSdk', :path => '../node_modules/react-native-cs-sdk'
-  pod 'React', path: '../node_modules/react-native'
-  pod 'yoga', path: '../node_modules/react-native/ReactCommon/yoga'
-
-end
-
-post_install do |installer|
-  installer.pods_project.targets.each do |target|
-    if target.name == "React"
-      target.remove_from_project
-    end
-  end
 end

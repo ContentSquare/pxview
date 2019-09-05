@@ -19,7 +19,6 @@ import com.crashlytics.android.Crashlytics;
 import io.fabric.sdk.android.Fabric;
 import com.smixx.fabric.FabricPackage;
 import com.react.rnspinkit.RNSpinkitPackage;
-import com.RNFetchBlob.RNFetchBlobPackage;
 import com.facebook.react.ReactNativeHost;
 import com.facebook.react.ReactPackage;
 import com.facebook.react.shell.MainReactPackage;
@@ -54,8 +53,7 @@ public class MainApplication extends Application implements ReactApplication {
             new ReactNativeLocalizationPackage(),
             new RNSharePackage(),
             new VectorIconsPackage(),
-            new FabricPackage(),
-            new RNFetchBlobPackage()
+            new FabricPackage()
       );
     }
 

@@ -176,7 +176,6 @@ dependencies {
 
     implementation project(':react-native-fabric')
     implementation project(':react-native-spinkit')
-    implementation project(':react-native-fetch-blob')
     implementation('com.crashlytics.sdk.android:crashlytics:2.6.8@aar') {
         transitive = true;
     }
