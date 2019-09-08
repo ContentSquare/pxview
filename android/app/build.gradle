@@ -80,7 +80,7 @@ project.ext.react = [
     entryFile: "index.js",
     enableHermes: false,  // clean and rebuild if changing
     // whether to bundle JS and assets in debug mode
-    bundleInDebug: false,
+    bundleInDebug: true,
 
      // whether to bundle JS and assets in release mode
     bundleInRelease: true,
