@@ -22,6 +22,7 @@ buildscript {
 
 allprojects {
     repositories {
+        google()
         // Add jitpack repository (added by react-native-spinkit)
         maven { url "https://jitpack.io" }
         mavenLocal()
@@ -34,7 +35,6 @@ allprojects {
             url("$rootDir/../node_modules/jsc-android/dist")
         }
 
-        google()
         jcenter()
         maven { url "https://oss.sonatype.org/content/repositories/snapshots/" }
     }
