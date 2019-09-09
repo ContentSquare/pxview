@@ -14,7 +14,8 @@
     "android-clean": "cd android && ./gradlew clean",
     "ios": "react-native run-ios",
     "ios-release": "react-native run-ios --configuration Release",
-    "pod-install": "cd ios && pod install"
+    "pod-install": "cd ios && pod install",
+    "postinstall": "npx jetify"
   },
   "dependencies": {
     "@react-native-community/async-storage": "^1.6.1",
