@@ -7,7 +7,7 @@ import {
   DeviceEventEmitter,
   Linking,
 } from 'react-native';
-import { CsModule, currencies } from 'react-native-cs-sdk';
+import { CsModule, Currency } from 'react-native-cs-sdk';
 import { connect } from 'react-redux';
 import { withTheme } from 'react-native-paper';
 import RNFetchBlob from 'rn-fetch-blob';
@@ -135,16 +135,14 @@ class Settings extends Component {
     });
   };
 
-  handleOnPressListItem = item => {
+  handleOnPressListItem = async item => {
     const {
       navigation: { navigate },
       i18n,
     } = this.props;
     switch (item.id) {
       case 'accountSettings': {
-        CsModule.getUserId(string => {
-          return console.log(string);
-        });
+        console.log(await CsModule.getUserId());
         navigate(SCREENS.AccountSettings);
         break;
       }
@@ -183,7 +181,7 @@ class Settings extends Component {
         break;
       }
       case 'about': {
-        CsModule.sendTransaction(23.45, currencies.USD);
+        CsModule.sendTransaction(23.45, Currency.USD);
         navigate(SCREENS.About);
         break;
       }
