@@ -364,7 +364,6 @@
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
 				DEFCAAE01E2FB8E700E61FEA /* ShellScript */,
-				ABC0EA083AE16969B6ADAA61 /* [CP] Embed Pods Frameworks */,
 				B34BAAC71E8F3758A560C8C0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
@@ -607,26 +606,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		ABC0EA083AE16969B6ADAA61 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-PxView/Pods-PxView-frameworks.sh",
-				"${PODS_ROOT}/../../../ios/Pods/CS_iOS_Swift_5_Xcode_10_2_1/Carthage/Build/iOS/ContentSquare.framework",
-				"${PODS_ROOT}/../../../ios/Pods/CS_iOS_Swift_5_Xcode_10_2_1/Carthage/Build/iOS/ContentSquare.framework.dSYM",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ContentSquare.framework",
-				"${DWARF_DSYM_FOLDER_PATH}/ContentSquare.framework.dSYM",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PxView/Pods-PxView-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B1D79FC953263D68E12EB1E1 /* [CP] Check Pods Manifest.lock */ = {

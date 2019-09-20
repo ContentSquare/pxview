@@ -44,6 +44,8 @@ target 'PxView' do
 
   pod 'RNZipArchive', :path => '../node_modules/react-native-zip-archive'
 
+  pod 'CsSdk', :path => '../node_modules/react-native-cs-sdk'
+
   target 'PxViewTests' do
     inherit! :search_paths
     # Pods for testing
