@@ -15,7 +15,8 @@
     "ios": "react-native run-ios",
     "ios-release": "react-native run-ios --configuration Release",
     "pod-install": "cd ios && pod install",
-    "postinstall": "npx jetify"
+    "postinstall": "npx jetify",
+    "update-ios-jsbundle": "sh ./scripts/update_ios_jsbundle.sh"
   },
   "dependencies": {
     "@react-native-community/async-storage": "^1.6.1",
