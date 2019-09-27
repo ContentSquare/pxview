@@ -131,7 +131,7 @@ PODS:
 DEPENDENCIES:
   - BVLinearGradient (from `../node_modules/react-native-linear-gradient`)
   - Crashlytics
-  - CsSdk (from `../node_modules/react-native-cs-sdk`)
+  - "CsSdk (from `../node_modules/@contentsquare/react-native-sdk`)"
   - DoubleConversion (from `../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec`)
   - Fabric
   - Folly (from `../node_modules/react-native/third-party-podspecs/Folly.podspec`)
@@ -182,7 +182,7 @@ EXTERNAL SOURCES:
   BVLinearGradient:
     :path: "../node_modules/react-native-linear-gradient"
   CsSdk:
-    :path: "../node_modules/react-native-cs-sdk"
+    :path: "../node_modules/@contentsquare/react-native-sdk"
   DoubleConversion:
     :podspec: "../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec"
   Folly:
@@ -303,6 +303,6 @@ SPEC CHECKSUMS:
   SSZipArchive: fa16b8cc4cdeceb698e5e5d9f67e9558532fbf23
   yoga: 312528f5bbbba37b4dcea5ef00e8b4033fdd9411
 
-PODFILE CHECKSUM: 9840be5f74680b38040366d4a6d8688e351a0f33
+PODFILE CHECKSUM: 8684d303b1f4b7cba377df8324321a289c3884c7
 
 COCOAPODS: 1.7.5
