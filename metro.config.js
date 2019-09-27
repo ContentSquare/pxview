@@ -1,7 +1,7 @@
 const path = require('path');
 
 const extraNodeModules = {
-  'react-native-cs-sdk': path.resolve(__dirname + '../..'),
+  '@contentsquare/react-native-sdk': path.resolve(__dirname + '../..'),
 };
 const watchFolders = [
   path.resolve(__dirname + '../..')
