@@ -431,7 +431,7 @@
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
-						DevelopmentTeam = S75J7D267F;
+						DevelopmentTeam = 68F5DK9B95;
 						SystemCapabilities = {
 							com.apple.Keychain = {
 								enabled = 0;
@@ -867,7 +867,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
-				DEVELOPMENT_TEAM = S75J7D267F;
+				DEVELOPMENT_TEAM = 68F5DK9B95;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"${PODS_ROOT}/Crashlytics/iOS\"",
@@ -895,7 +895,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.utopia.pxview;
+				PRODUCT_BUNDLE_IDENTIFIER = com.contentsquare.pxview;
 				PRODUCT_NAME = PxView;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -909,7 +909,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = S75J7D267F;
+				DEVELOPMENT_TEAM = 68F5DK9B95;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"${PODS_ROOT}/Crashlytics/iOS\"",
@@ -937,7 +937,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.utopia.pxview;
+				PRODUCT_BUNDLE_IDENTIFIER = com.contentsquare.pxview;
 				PRODUCT_NAME = PxView;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
