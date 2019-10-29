@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.1.2",
+    "@contentsquare/react-native-sdk": "0.1.0-mobile-1926.1",
     "bluebird": "^3.5.0",
     "color": "^3.1.0",
     "firebase": "^4.1.3",
