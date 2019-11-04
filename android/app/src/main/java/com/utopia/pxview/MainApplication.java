@@ -4,6 +4,7 @@ import android.app.Application;
 
 import com.squareup.leakcanary.LeakCanary;
 import com.facebook.react.ReactApplication;
+import com.contentsquare.rn.CsSdkPackage;
 import com.reactnative.photoview.PhotoViewPackage;
 import com.rnziparchive.RNZipArchivePackage;
 import com.BV.LinearGradient.LinearGradientPackage;
@@ -41,6 +42,7 @@ public class MainApplication extends Application implements ReactApplication {
       return Arrays.<ReactPackage>asList(
           new RNSpinkitPackage(),
            new MainReactPackage(),
+            new CsSdkPackage(),
             new PhotoViewPackage(),
             new UgoiraViewPackage(),
             new RNZipArchivePackage(),

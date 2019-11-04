@@ -113,6 +113,7 @@ android {
         }
         renderscriptTargetApi 23
         renderscriptSupportModeEnabled true
+        multiDexEnabled true
     }
     signingConfigs {
         release {
@@ -161,6 +162,7 @@ repositories {
 }
 
 dependencies {
+    implementation project(':@contentsquare_react-native-sdk')
     implementation project(':react-native-photo-view')
     implementation project(':react-native-zip-archive')
     implementation project(':react-native-linear-gradient')
@@ -190,6 +192,7 @@ dependencies {
     implementation 'com.facebook.fresco:webpsupport:1.9.0'
     implementation "com.android.support:appcompat-v7:${rootProject.ext.supportLibVersion}"
     implementation "com.facebook.react:react-native:+"  // From node_modules
+    implementation 'com.android.support:multidex:1.0.3'
 }
 
 buildscript {

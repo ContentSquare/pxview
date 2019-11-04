@@ -1,21 +1,46 @@
 PODS:
   - Crashlytics (3.13.4):
     - Fabric (~> 1.10.2)
+  - CS_iOS_Swift_5_Xcode_10_2_1 (2.2.0)
+  - CsSdk (0.1.0-mobile-1926.2):
+    - CS_iOS_Swift_5_Xcode_10_2_1 (~> 2.2.0)
+    - React
   - Fabric (1.10.2)
+  - React (0.59.10):
+    - React/Core (= 0.59.10)
+  - React/Core (0.59.10):
+    - yoga (= 0.59.10.React)
+  - yoga (0.59.10.React)
 
 DEPENDENCIES:
   - Crashlytics
+  - "CsSdk (from `../node_modules/@contentsquare/react-native-sdk`)"
   - Fabric
+  - React (from `../node_modules/react-native`)
+  - yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
 SPEC REPOS:
   trunk:
     - Crashlytics
+    - CS_iOS_Swift_5_Xcode_10_2_1
     - Fabric
+
+EXTERNAL SOURCES:
+  CsSdk:
+    :path: "../node_modules/@contentsquare/react-native-sdk"
+  React:
+    :path: "../node_modules/react-native"
+  yoga:
+    :path: "../node_modules/react-native/ReactCommon/yoga"
 
 SPEC CHECKSUMS:
   Crashlytics: 2dfd686bcb918dc10ee0e76f7f853fe42c7bd552
+  CS_iOS_Swift_5_Xcode_10_2_1: b682260a2a8548cb83e64733ef4dc1dc0cdb1fa9
+  CsSdk: 42a0a3db2793a4107b0e1b577f6d8b624ef8724b
   Fabric: 706c8b8098fff96c33c0db69cbf81f9c551d0d74
+  React: 36d0768f9e93be2473b37e7fa64f92c1d5341eef
+  yoga: 684513b14b03201579ba3cee20218c9d1298b0cc
 
-PODFILE CHECKSUM: a87a0134499566ee953768529eb2058957ecc308
+PODFILE CHECKSUM: b9cc3d5003b8822939805042c83bca7f30383406
 
 COCOAPODS: 1.8.1
