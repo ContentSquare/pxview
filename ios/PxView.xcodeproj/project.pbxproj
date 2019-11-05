@@ -921,7 +921,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.utopia.pxview;
+				PRODUCT_BUNDLE_IDENTIFIER = com.contentsquare.pxview;
 				PRODUCT_NAME = PxView;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -963,7 +963,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.utopia.pxview;
+				PRODUCT_BUNDLE_IDENTIFIER = com.contentsquare.pxview;
 				PRODUCT_NAME = PxView;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
