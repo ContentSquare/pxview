@@ -1,29 +1,9 @@
 #!/bin/bash
 
-cd ..
+[ "${PWD##*/}" == "scripts" ] && cd ..
 
 jsbundlePath="./ios/main.jsbundle"
 assetsPath="./ios/assets/"
-
-#Check we have all needed programs installed
-if ! [ -x "$(command -v node)" ]; then
-    echo "Node is missing, installing..."
-    brew install node
-fi
-
-if ! [ -x "$(command -v watchman)" ]; then
-    echo "Watchman is missing, installing..."
-    brew install watchman
-fi
-
-if ! [ -x "$(command -v react-native)" ]; then
-    echo "Restore ownership of the user's npm related folders to the current user..."
-    sudo chown -R $USER:$GROUP ~/.npm
-    sudo chown -R $USER:$GROUP ~/.config
-
-    echo "React-native CLI is missing, installing..."
-    npm install -g react-native-cli
-fi
 
 #Remove the old files and folders for iOS
 if [ -f $jsbundlePath ]; then
