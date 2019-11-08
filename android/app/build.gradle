@@ -74,7 +74,7 @@ import com.android.build.OutputFile
  */
 
 project.ext.react = [
-    entryFile: "index.js"
+        entryFile: "index.js"
 ]
 
 apply from: "../../node_modules/react-native/react.gradle"
@@ -117,11 +117,11 @@ android {
     }
     signingConfigs {
         release {
-            if (project.hasProperty('PXVIEW_RELEASE_STORE_FILE')) {
-                storeFile file(PXVIEW_RELEASE_STORE_FILE)
-                storePassword PXVIEW_RELEASE_STORE_PASSWORD
-                keyAlias PXVIEW_RELEASE_KEY_ALIAS
-                keyPassword PXVIEW_RELEASE_KEY_PASSWORD
+            if (project.hasProperty('CONTENTSQUARE_REACT_NATIVE_SAMPLE_APP_STORE_FILE')) {
+                storeFile file(CONTENTSQUARE_REACT_NATIVE_SAMPLE_APP_STORE_FILE)
+                storePassword CONTENTSQUARE_REACT_NATIVE_SAMPLE_APP_STORE_PASSWORD
+                keyAlias CONTENTSQUARE_REACT_NATIVE_SAMPLE_APP_KEY_ALIAS
+                keyPassword CONTENTSQUARE_REACT_NATIVE_SAMPLE_APP_PASSWORD
             }
         }
     }
@@ -145,7 +145,7 @@ android {
         variant.outputs.each { output ->
             // For each separate APK per architecture, set a unique version code as described here:
             // http://tools.android.com/tech-docs/new-build-system/user-guide/apk-splits
-            def versionCodes = ["armeabi-v7a":1, "x86":2, "arm64-v8a": 3, "x86_64": 4]
+            def versionCodes = ["armeabi-v7a": 1, "x86": 2, "arm64-v8a": 3, "x86_64": 4]
             def abi = output.getFilter(OutputFile.ABI)
             if (abi != null) {  // null for the universal-debug, universal-release variants
                 output.versionCodeOverride =
