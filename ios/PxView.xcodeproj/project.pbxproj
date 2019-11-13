@@ -1948,6 +1948,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3568C3F0A7FF858D9F4213AE /* Pods-PxView.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CURRENT_PROJECT_VERSION = 1;
@@ -1991,6 +1992,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D56A21BD890C6F97414752FF /* Pods-PxView.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CURRENT_PROJECT_VERSION = 1;
