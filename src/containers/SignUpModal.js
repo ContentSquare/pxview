@@ -13,6 +13,7 @@ import { connect } from 'react-redux';
 import { withNavigationFocus } from 'react-navigation';
 import { withFormik, Field } from 'formik';
 import { withTheme, Button } from 'react-native-paper';
+import { Contentsquare, Currency } from '@contentsquare/react-native-sdk';
 import OverlaySpinner from 'react-native-loading-spinner-overlay';
 import { connectLocalization } from '../components/Localization';
 import PXFormInput from '../components/PXFormInput';
@@ -113,6 +114,8 @@ class SignUpModal extends Component {
       setFieldTouched,
       theme,
     } = this.props;
+    Contentsquare.send('SignUpModal');
+    Contentsquare.sendTransaction(23.45, Currency.USD);
     const { isShowModal } = this.state;
     return (
       <Modal
