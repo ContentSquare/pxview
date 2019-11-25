@@ -5,7 +5,7 @@ PODS:
   - Crashlytics (3.13.4):
     - Fabric (~> 1.10.2)
   - CS_iOS_SDK (2.2.1)
-  - CsSdk (0.1.0-mobile-1913.1):
+  - CsSdk (0.1.1):
     - CS_iOS_SDK (= 2.2.1)
     - React
   - DoubleConversion (1.1.6)
@@ -420,7 +420,7 @@ SPEC CHECKSUMS:
   BVLinearGradient: e3aad03778a456d77928f594a649e96995f1c872
   Crashlytics: 2dfd686bcb918dc10ee0e76f7f853fe42c7bd552
   CS_iOS_SDK: cd1b9c070f2e9ab9d7f82046a42563180affe430
-  CsSdk: 172fb75d039b48cdbfdfc802e5297f15134b01a8
+  CsSdk: 79f01d2f265156e8a7f6fab90b005c8c5b100cbc
   DoubleConversion: 5805e889d232975c086db112ece9ed034df7a0b2
   Fabric: 706c8b8098fff96c33c0db69cbf81f9c551d0d74
   FBLazyVector: 68b6a76960fbd8ecd9fb7ce0aadd3329c3340a99
