@@ -1,4 +1,4 @@
-import { MY_BOOKMARK_ILLUSTS } from '../constants/actionTypes';
+import { MY_PRIVATE_BOOKMARK_ILLUSTS } from '../constants/actionTypes';
 
 const initState = {
   loading: false,
