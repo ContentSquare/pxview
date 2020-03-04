@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {CsModule} from 'react-native-cs-sdk';
+import Contentsquare from '@contentsquare/react-native-sdk';
 import PXWebView from '../../components/PXWebView';
 
 const ENCYCLOPEDIA_URL =
@@ -19,10 +19,10 @@ class Encyclopedia extends Component {
     const { props } = this;
     const { addListener } = props.navigation;
     this.didFocusSubscription = addListener('didFocus', () => {
-      CsModule.injectEventTrackingInterface(this.webViewNativeID);
+      Contentsquare.injectEventTrackingInterface(this.webViewNativeID);
     });
     this.didBlurSubscription = addListener('didBlur', () => {
-      CsModule.removeEventTrackingInterface(this.webViewNativeID);
+      Contentsquare.removeEventTrackingInterface(this.webViewNativeID);
     });
   }
 
